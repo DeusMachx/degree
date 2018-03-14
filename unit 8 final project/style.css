@@ -1,0 +1,40 @@
+body {
+    margin-top: 600px;
+    background-color:#6fa5fc;
+    margin: auto;
+    text-align: center;
+    position:relative;top:200px;
+}
+
+form {
+    margin: auto;
+    text-align: center;
+
+}
+
+.boxed {
+    border-bottom: 3px solid #f2f7f5;
+    padding-top: 20px;
+    border-right-width: 2px;
+    border-top: 2px;
+}
+
+.boxed { 
+   /* … other styles */
+   border-radius: 10px;
+}
+ 
+.boxed:after {
+  content: '';
+  position: absolute;
+ 
+  width: 0;
+  height: 0;
+ 
+  border: 15px solid;
+  border-top-color: #292929;
+ 
+  top: 100%;
+  left: 50%;
+  margin-left: -15px; /* adjust for border width */
+}
